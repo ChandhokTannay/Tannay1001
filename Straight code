@@ -1,0 +1,54 @@
+	import java.util.Scanner;
+public class RoboticsTEST {
+
+
+		
+		public static void main(String[] args) {
+			// TODO Auto-generated method stub
+			
+			double a;
+			double b;
+			double c;
+			double d;
+			 
+			String Numerator1, Denominator1, Numerator2,
+			Denominator2;
+			
+			Scanner scanner1 = new Scanner(System.in);
+			
+			System.out.print("Enter Numerator one: ");
+			a = scanner1.nextDouble();
+			
+			System.out.print("Enter Denominator one: ");
+			b = scanner1.nextDouble();
+			
+			System.out.print("Enter Numerator two: ");
+			c = scanner1.nextDouble(); 
+			
+			System.out.print("Enter Denominator two: ");
+			d = scanner1.nextDouble();
+			
+			double fraction1 = a/b;
+			double fraction2 = c/d; 
+			double sum = fraction1+fraction2;
+			double difference = fraction1-fraction2;
+			double product = fraction1*fraction2;
+			double quotient = fraction1/fraction2;
+			
+			System.out.println("the sum of the fractions is "+ sum);
+			System.out.println("the difference of the fractions is " + difference);
+			System.out.println("the product of the fractions is " + product);
+			System.out.println("the quotient of the fractions is " + quotient);
+			
+			
+				
+			}
+			
+			
+		
+
+	
+
+
+		
+	}
